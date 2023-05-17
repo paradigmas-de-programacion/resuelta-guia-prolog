@@ -111,7 +111,7 @@ El listado se compone de al menos una nota para cada alumno. En caso de que alg�
 No se toman en cuenta quienes no dieron ninguno de los parciales. 
 
 ## Ejercicio 06
-5. Una agencia matrimonial de los años '80 tiene un fichero de candidatos al matrimonio organizado según las declaraciones siguientes:
+Una agencia matrimonial de los años '80 tiene un fichero de candidatos al matrimonio organizado según las declaraciones siguientes:
 
 ```prolog
 hombre(N,A,C,E).
@@ -147,7 +147,7 @@ Analizar el comportamiento del operador ! (operador de corte o " cut").
 Modificar el programa del **Ejercicio 01** (menú) para poder consultar cual es el menú completo que tiene menor cantidad de calorías.
 
 ## Ejercicio 09
-8. Basado en el ejemplo de paises.pl visto en clase, complete la base de conocimientos `pais_superficie(P,A)` con todos los países de latinoamérica y codifique las reglas prolog que permitan encontrar el país de mayor superficie.
+Basado en el ejemplo de paises.pl visto en clase, complete la base de conocimientos `pais_superficie(P,A)` con todos los países de latinoamérica y codifique las reglas prolog que permitan encontrar el país de mayor superficie.
 
 ## Ejercicio 10
 Dado el listado de vendedores y ventas semestrales se desea obtener el listado anual de comisiones. Las comisiones se liquidan de la siguiente manera:
