@@ -57,7 +57,7 @@ hermana(X,Y) % expresa que X es una hermana de Y.
 > **Nota:** Un individuo no puede ser hermano ni hermana de sí mismo.
 
 ## Ejercicio 04
-Una agencia de viajes propone a sus clientes viajes de una o dos semanas a Roma, Londres o Túnez. El catálogo de la agencia contiene, para cada destino, el precio del transporte (con independencia de la duración) y el precio de una semana de estancia que varía según el destino y el nivel de comodidad elegidos: hotel, hostal o camping.
+Una agencia de viajes propone a sus clientes viajes de una o varias semanas a Roma, Londres o Túnez. El catálogo de la agencia contiene, para cada destino, el precio del transporte (con independencia de la duración) y el precio de una semana de estancia que varía según el destino y el nivel de comodidad elegidos: hotel, hostal o camping.
 
 Escribir el conjunto de declaraciones que describen este catálogo (se muestra a continuación).
 
