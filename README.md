@@ -90,25 +90,27 @@ Se dispone de las notas de ambos parciales para todos los alumnos.
 ```prolog
 parcial1(ana,7).
 parcial1(juan,4).
-.
-.
-.
+parcial1(julio, 2).
+parcial1(maria, 10).
+
 parcial2(ana,9).
 parcial2(juan,8).
-.
-.
-.
+parcial2(julio, 4).
+parcial2(maria, 2).
 ```
 
 Se desea obtener:
-1. El listado de los alumnos que promocionan la materia, indicando el nombre y la nota final (promedio de los dos parciales), para cada uno.
-2. El listado de los alumnos que obtendrán la cursada. 
-3. El listado de los alumnos que recursan la materia.
-4. A fin de entregar la medalla al mérito, encontrar de aquellos que promocionan, el o los alumnos con mayor nota final. 
+1.
+  a. El listado de los alumnos que promocionan la materia
+  b. El mismo listado pero esta vez incluyendo la nota final (promedio de los dos parciales) para cada uno
+2. El listado de los alumnos que recursan la materia.
+3. El listado de los alumnos que obtendrán la cursada. 
+4. <maximos> A fin de entregar la medalla al mérito, encontrar de aquellos que promocionan (1b), el o los alumnos con mayor nota final (nombre y nota)
+5. <maximos> Ahora se desea obtener cuales fueron las dos notas más altas, considerando simplemente a la nota como el promedio de la nota de parcial1 y parcial2. Solo interesan los números. Un tip es pensar la resolución en dos etapas, la más alta, y después la más alta de lo restante
 
 ### Versión 2
-El listado se compone de al menos una nota para cada alumno. En caso de que algún alumno adeude uno de los parciales, su condición es ausente.
-No se toman en cuenta quienes no dieron ninguno de los parciales. 
+El listado se compone de al menos una nota para cada alumno. En caso de que algún alumno adeude uno de los parciales (es decir no tenga un hecho relacionado a su parcial), su condición es ausente.
+No se toman en cuenta quienes no dieron ninguno de los parciales.
 
 ## Ejercicio 06
 Una agencia matrimonial de los años '80 tiene un fichero de candidatos al matrimonio organizado según las declaraciones siguientes:
@@ -136,15 +138,15 @@ Se dice que x conviene a y si x conviene físicamente a y (la altura, edad y col
 Con el programa 'menú', dado en clase, describir la semántica de las siguientes tres consultas Prolog y decir cuál es el resultado de la ejecución:
 
 ```prolog
-comida(E,P,D),!.
-comida(E,P,D),pescado (P),!.
-comida(E,P,D),!,pescado(P).
+menu(E,PP,P), !.
+menu(E,PP,P), pescado(PP), !.
+menu(E,PP,P), !, pescado(PP).
 ```
 
 Analizar el comportamiento del operador ! (operador de corte o " cut").
 
 ## Ejercicio 08
-Modificar el programa del **Ejercicio 01** (menú) para poder consultar cual es el menú completo que tiene menor cantidad de calorías.
+Modificar el programa del **Ejercicio 01** (menú) para poder consultar cual es el menú completo que tiene menor cantidad de calorías (agregando las calorias como parte de la información de los hechos)
 
 ## Ejercicio 09
 Basado en el ejemplo de paises.pl visto en clase, complete la base de conocimientos `pais_superficie(P,A)` con todos los países de latinoamérica y codifique las reglas prolog que permitan encontrar el país de mayor superficie.
@@ -170,7 +172,7 @@ ventas2doSem(vendedor, importe).
 ## Ejercicio 11: Recursividad
 
 1. Codifique en prolog las reglas necesarias para obtener el término N en la serie de Gauss
-2. Codifique en prolog las reglas necesarias para obtener el término N en la serie de Fibonacci
+2. Codifique en prolog las reglas necesarias para obtener el término N en la serie de Fibonacci (sin, y con mejora)
 3. Codifique en prolog las reglas necesarias para obtener el factorial de un número natural N. 
 4. Codifique en prolog las reglas necesarias para obtener el producto de dos numeros X e Y, aplicando sumas sucesivas. 
 5. Codifique en prolog las reglas necesarias para obtener la potencia N de un numero X aplicando multiplicaciones sucesivas. 
