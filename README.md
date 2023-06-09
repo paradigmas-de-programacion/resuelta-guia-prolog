@@ -101,8 +101,8 @@ parcial2(maria, 2).
 
 Se desea obtener:
 1.
-  a. El listado de los alumnos que promocionan la materia
-  b. El mismo listado pero esta vez incluyendo la nota final (promedio de los dos parciales) para cada uno
+  1. El listado de los alumnos que promocionan la materia
+  2. El mismo listado pero esta vez incluyendo la nota final (promedio de los dos parciales) para cada uno
 2. El listado de los alumnos que recursan la materia.
 3. El listado de los alumnos que obtendrán la cursada. 
 4. <maximos> A fin de entregar la medalla al mérito, encontrar de aquellos que promocionan (1b), el o los alumnos con mayor nota final (nombre y nota)
